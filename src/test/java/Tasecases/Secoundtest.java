@@ -35,8 +35,8 @@ public class Secoundtest  extends Baseclass {
 		 sec.tel().sendKeys("9511626329");
 		 sec.mail().sendKeys("rrahulbaviskar.rb@gmil.com");
 		 sec.submit().click();
-		// System.out.println(driver.switchTo().alert().getText());
-	//	 driver.switchTo().alert().dismiss();
+		 System.out.println(driver.switchTo().alert().getText());
+		 driver.switchTo().alert().dismiss();
 		 
 		 
 		 
